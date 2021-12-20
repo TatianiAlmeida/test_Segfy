@@ -1,0 +1,43 @@
+TELA CADASTRO
+Nome > ok
+Email > ok
+Telefone > Permite um numero invalido
+Nome corretora > ok
+Login de corretora> não permite numero
+Quantas Pessoas vão usar> da opções
+Senha de acesso> apenas o critério de 6 digitos
+
+POP UP
+Instalação de extensão
+Botão de período > opções
+Botão de fechar > ok
+
+Tutorial de apresentação
+Botão para video > youtube > não esta mais disponivel
+Carrossel > tópicos > video que não esta disponivel
+
+Home
+Login da Seguradora > Quebra no Icone
+Importa documento> Quebra no Icone
+Multicalculos> Quebra no Icone
+Busca Rápida > ok
+Assinatura> Realizar cadastro
+Login da Seguradora> Configurar
+Multicalculos> Configurar
+Propostas e Apólices > Importar
+Perfil> Dados> Gerenciamento da Conta> ajuda> Sair
+
+Segurados
+Segurados> Pessoa Física> Pessoa Jurídica
+Performance> Segurados Vigente>Segurados Inativos
+Datas> Aniversariante Hoje> Aniversariante do mês> CNH Vencendo Hoje> CNH Vencendo no Mês
+Pesquisar Segurados> 
+Importar segurado> Abri documentos
+Exportar Segurado> gera documento Excel
+
+Multicalculos
+Cotação Veiculos> sem ação
+Cotação Casa > não reporta
+Cotação empresarial> não reporta
+Cotação Saúde> não reporta
+Cotação Manual> não reporta
