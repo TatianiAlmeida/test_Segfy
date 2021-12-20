@@ -4,11 +4,11 @@ Library  SeleniumLibrary
 *** Variables ***
 ${SEU_NOME}               Joao
 ${FIELD_NAME}             id=txtNomeCompleto
-${EMAIL}                  joao123476@teste.com.br
+${EMAIL}                  joao123480@teste.com.br
 ${FIELD_EMAIL}            id=txtEmail
 ${TELEFONE}               41988888888
 ${FIELD_FONE}             id=txtTelefone
-${NOME_CORRETORA0}        johnaaAao0000ooOcorretora
+${NOME_CORRETORA0}        j00hnaaAao0000ooOcorretora
 ${FIELD_NAME_CORRETORA}   id=txtEmpresa
 ${SENHA}                  123456JOAO
 ${FIELD_PASSWORD}         id=txtSenha
