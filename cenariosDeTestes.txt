@@ -1,0 +1,42 @@
+CENÁRIO: USUARIO ACESSA A PLATAFORMA PARA REALIZAR CADASTRO
+DADO que o usuario preencha os campos "Nome", "email", "Telefone ou celular", "Nome da Corretora", "login da Corretora", "quantas pessoas vão acessar", " Senha de Acesso"
+QUANDO clicar em "Li e Concordo com os termos"
+E clicar em "acessar plataforma"
+ENTÃO deve ocorrer o acesso ao portal.
+
+CENARIO: USUÁRIO INFORMA SENHA COM PARÂMETROS INCORRETOS
+DADO que o usuario preencheu  todos os campos corretamente
+E no campo "senha", informou quantidade de caractere inferior ao requisito
+ENTAO ao clicar em "acessar Plataforma" não deve ocorrer o acesso
+
+CENÁRIO: USUARIO INFORMA CARACTER INVÁLIDO NO CAMPO TELEFONE
+DADO que o usuario preencheu todos os campos corretamente
+E no campo "telefone ou celular", insere caracteres inválidos
+ENTÃO o campo não aceita o caracter.
+
+CENÁRIO: USUARIO COM LOGIN DE CORRETORA JÁ EXISTENTE
+DADO que o usuario preencheu todos os campos corretamente
+QUANDO preenche o campo "nome da corretora"
+E o campo "Login da Corretora" preenche automaticamente
+E havendo login já existente
+ENTÃO é exibido alerta
+E usuario poderá realizar alteração.
+
+_________________________________________________________
+CENARIO: PACOTE DE ASSINATURA PESSOA FISICA
+DADO que o usuario clique em "Assine já o sistema"
+E selecione a quantidade de usuários
+E Clique em "Contratar agora"
+ENTÃO seleciona a opção "Pessoa Física"
+E preencha os campos "Nome", "CPF", "Email de Cobrança", "telefone", "CEP", "Endereço",
+E selecione o "Melhor dia do mês" para próximos vencimento.
+ENTÃO clique em "Perfeito, quero assinar"
+
+CENARIO: PACOTE DE ASSINATURA PESSOA JURIDICA
+DADO que o usuario clique em "Assine já o sistema"
+E selecione a quantidade de usuários
+E Clique em "Contratar agora"
+ENTÃO seleciona a opção "Pessoa Jurídica"
+E preencha os campos "Razão Social", "CNPJ", "Nome da Pessoa Responsável", "Email de Cobrança", "telefone", "CEP", "Endereço",
+E selecione o "Melhor dia do mês" para próximos vencimento.
+ENTÃO clique em "Perfeito, quero assinar"
